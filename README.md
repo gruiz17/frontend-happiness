@@ -19,7 +19,7 @@ Non-ClojureScript tools included:
 
 ### Using Git/GitHub locally with leiningen
 
-1. `git clone https://github.com/gruiz17/frontend-happiness
+1. `git clone https://github.com/gruiz17/frontend-happiness`
 2. `cd frontend-happiness`
 3. `lein install`
 
