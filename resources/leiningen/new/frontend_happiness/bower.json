@@ -1,0 +1,21 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "description": "frontend boilerplate for clojurescript/react apps",
+  "keywords": [
+    "clojurescript",
+    "react"
+  ],
+  "license": "Eclipse Public License",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

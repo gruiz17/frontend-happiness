@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>{{name}}</title>
+  <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+<body>
+  <div>{{name}}</div>
+  
+  <!-- bower components -->
+  <script type="text/javascript" src="bower/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- cljs stuff -->
+  <script src="out/goog/base.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script>goog.require('{{sanitized}}.main.core')</script>
+  <script>goog.require('{{sanitized}}.figwheel.main_figwheel')</script>
+</body>
+</html>
