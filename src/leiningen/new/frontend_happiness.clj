@@ -14,7 +14,7 @@
               ["resources/public/index.html" (render "resources/public/index.html" data)]
               ["resources/public/stylesheets/main.css" (render "resources/public/stylesheets/main.css" data)]
               ["src/{{sanitized}}/main/core.cljs" (render "src/frontend_happiness/main/core.cljs" data)]
-              ["src/{{sanitized}}/figwheel/main_figwheel.cljs" (render "src/frontend_happiness/main/main_figwheel.cljs" data)]
+              ["src/{{sanitized}}/figwheel/main_figwheel.cljs" (render "src/frontend_happiness/figwheel/main_figwheel.cljs" data)]
               ["LICENSE" (render "LICENSE" data)]
               ["README.md" (render "README.md" data)]
               [".gitignore" (render ".gitignore" data)]
