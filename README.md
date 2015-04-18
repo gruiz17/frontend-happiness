@@ -26,7 +26,7 @@ Non-ClojureScript tools included:
 ### Using Clojars/your profiles.cljs file
 
 1. Open up your `~/.lein/profiles.clj` file.
-2. Add the needed plugins: `{:user {:plugins [[frontend-happiness "0.0.1"]]}}
+2. Add the needed plugins: `{:user {:plugins [[frontend-happiness "0.0.1"]]}}`
 
 ## Usage
 
