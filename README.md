@@ -5,6 +5,8 @@ Extremely minimal template for ClojureScript projects. ClojureScript libraries/t
 * [Figwheel](https://github.com/bhauman/lein-figwheel)
 * [Reagent](https://github.com/reagent-project/reagent)
 * [Secretary](https://github.com/gf3/secretary)
+* [cljs-http](https://github.com/r0man/cljs-http)
+* [core.async](https://github.com/clojure/core.async)
 
 Non-ClojureScript tools included:
 
@@ -16,6 +18,11 @@ Non-ClojureScript tools included:
 1. `lein new frontend-happiness {{appname}}`
 2. then `cd` into `{{appname}}` and run `bower install`
 3. then just start `lein figwheel` and visit `localhost:3449`
+
+## Todo
+
+* put on clojars
+* add more instructions for releasing to gh-pages
 
 
 ## License
