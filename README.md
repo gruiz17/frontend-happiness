@@ -19,14 +19,14 @@ Non-ClojureScript tools included:
 
 ### Using Git/GitHub locally with leiningen
 
-1. `git clone https://github.com/gruiz17/frontend-happiness
+1. `git clone https://github.com/gruiz17/frontend-happiness`
 2. `cd frontend-happiness`
 3. `lein install`
 
 ### Using Clojars/your profiles.cljs file
 
 1. Open up your `~/.lein/profiles.clj` file.
-2. Add the needed plugins: `{:user {:plugins [[frontend-happiness "0.0.1"]]}}
+2. Add the needed plugins: `{:user {:plugins [[frontend-happiness "0.0.1"]]}}`
 
 ## Usage
 
